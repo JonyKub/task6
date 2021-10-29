@@ -6,7 +6,7 @@ function calcu() {
     console.log();
     let b = document.getElementsByName("number");
     if (proverka.test(first) == false|| proverka.test(b[0].value) == false) {
-        alert("Вы сделали что-то не так!");
+        alert("Что то пошло не по плану!");
     } else {
         let c = document.getElementById("result");
         first[0] = Number.parseInt(first[0]);
